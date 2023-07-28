@@ -21,7 +21,7 @@ function Clients() {
                 </p>
                 <p className='text-2xl font-bold'>Susan White</p>
                 <p className='text-xl text-gray-500 mb-8'>
-                    The owner of the NewKiwi Farm Ltd.
+                    The owner of NewKiwi Farm Ltd.
                     <a href="#" className='text-blue-600 '>@Company</a>
                 </p>
             </div>
