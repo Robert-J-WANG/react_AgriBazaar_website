@@ -19,7 +19,7 @@ export const solutionsData = [
     {
         id: 3,
         title: 'Marotiri School Trail Ride',
-        description: 'proud to be the main sponsor for the Marotiri School Trail Ride in March 2022',
+        description: 'Be proud to be the main sponsor for the Marotiri School Trail Ride in March 2022',
 
         img: 'https://www.powerfarming.co.nz/edit/image_cache/marotir_1160x773c0pcenter.jpg',
     },
