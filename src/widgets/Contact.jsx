@@ -8,12 +8,12 @@ function Contact() {
                 <p className="text-lg text-white mt-2 mb-6">
                     Your Gateway to Unparalleled Farming Machinery Expertise and Support
                 </p>
-                <div className="flex flex-col md:flex-row items-start gap-4">
+                <div className="flex flex-col md:flex-row justify-center gap-4">
                     <input
                         type="text"
                         name=""
                         id=""
-                        className="bg-zinc-800 py-3 px-4 border border-zinc-700"
+                        className="md:w-96 bg-zinc-800 py-3 px-4 border border-zinc-700"
                         placeholder="Enter your email"
                     />
                     <button className="py-3 px-8 bg-blue-500 text-white text-base font-medium md:ml-2">

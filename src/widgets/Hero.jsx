@@ -7,7 +7,7 @@ export default function
         <div className='grid justify-items-center gap-8  relative'>
             {/* title */}
             <p className='text-4xl md:text-6xl font-black text-green-800 text-center leading-normal md:leading-normal '>
-                Welcome to AgriBazaar !
+                Welcome to AgriBazaar NZ !
             </p>
 
             {/* content */}
@@ -16,8 +16,8 @@ export default function
 
             {/* button */}
             <div>
-                <button className='rounded bg-yellow-800 text-lg text-white px-8 py-3'>Rent Now</button>
-                <button className='rounded text-lg bg-green-800 text-white px-8 py-3 ml-8'>Buy Now</button>
+                <button className='rounded bg-yellow-800 text-lg text-white px-8 py-3 hover:scale-110 ease-in-out duration-300 opacity-60'>Rent Now</button>
+                <button className='rounded text-lg bg-green-800 text-white px-8 py-3 ml-8 hover:scale-110 ease-in-out duration-300 opacity-60'>Buy Now</button>
             </div>
 
             {/* svg right */}

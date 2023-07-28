@@ -22,7 +22,7 @@ function Footer() {
                 </nav>
             ))}
 
-            <div className="col-span-full mt-12 border-t py-9 flex flex-col gap-4 justify-between md:flex-row">
+            <div className="col-span-full mt-12 border-t border-green-700 py-9 flex flex-col gap-4 justify-between md:flex-row">
                 <p>
                     Designed by {" "}
                     <a href="https://github.com/Robert-J-WANG" className="text-blue-500">

@@ -28,7 +28,7 @@ function Solutions() {
 
                 {/* right part */}
                 <div className=' h-[38.5em] basis-3/5 rounded-r-3xl overflow-hidden' >
-                    <img className='w-full h-full object-cover hover:scale-105 duration-500' alt="" src={
+                    <img className='w-full h-full object-cover hover:scale-105 duration-500 cursor-pointer' alt="" src={
                         solutionsData.find(item => item.id === selectId).img} />
                 </div>
             </div>
