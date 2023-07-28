@@ -4,7 +4,7 @@ import Logo from '../assets/logo.svg'
 export default function Header() {
     return (
         <div className='flex items-center justify-between h-20'>
-            <span className='text-4xl font-mono font-bold'>AgriBazaar.</span>
+            <span className='hidden md:block text-4xl font-mono font-bold'>AgriBazaar.</span>
             <img src={Logo} alt="" className='w-14 h-14 lg:animate-logo-move' />
             <nav className='flex items-center '>
                 <a href="#" className='text-lg text-yellow-800 '>Login</a>
