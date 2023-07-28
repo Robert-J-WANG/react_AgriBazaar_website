@@ -5,9 +5,9 @@ import { footerData } from '../data'
 function Footer() {
     return (
         <footer className="grid gap-8 md:gap-0 text-gray-500 md:w-4/5 mx-auto mt-32 md:grid-cols-4">
-            <div >
-                <img src={Logo} alt="" className="w-16 h-16" />
-                <p className="grid gap-2 justify-items-start mt-10">
+            <div className="flex flex-col justify-center md:gap-14">
+                <img src={Logo} alt="" className="w-16 h-16 mx-auto" />
+                <p className="flex flex-col gap-2 md:gap-6 ">
                     <a href="#">
                         User Agreement</a>
                     <a href="#">Privacy</a>
@@ -30,7 +30,7 @@ function Footer() {
                     </a>{" "}
                     . All rights reserved.
                 </p>
-                <p className="flex gap-4">
+                <p className="flex gap-4 justify-center">
                     <a href="">
                         <svg
                             width="38"
