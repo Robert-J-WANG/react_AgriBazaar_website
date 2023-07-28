@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import SectionHeading from './SectionHeading'
-import Image1 from "../assets/pexels-photo-8348457.jpg";
 import { solutionsData } from '../data'
 
 function Solutions() {
