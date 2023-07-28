@@ -24,8 +24,8 @@ function Footer() {
 
             <div className="col-span-full mt-12 border-t py-9 flex flex-col gap-4 justify-between md:flex-row">
                 <p>
-                    disigned by {" "}
-                    <a href="https://cruip.com/" className="text-blue-500">
+                    Designed by {" "}
+                    <a href="https://github.com/Robert-J-WANG" className="text-blue-500">
                         Robert
                     </a>{" "}
                     . All rights reserved.

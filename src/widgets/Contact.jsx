@@ -14,7 +14,7 @@ function Contact() {
                         name=""
                         id=""
                         className="bg-zinc-800 py-3 px-4 border border-zinc-700"
-                        placeholder="your email"
+                        placeholder="Enter your email"
                     />
                     <button className="py-3 px-8 bg-blue-500 text-white text-base font-medium md:ml-2">
                         Send now
