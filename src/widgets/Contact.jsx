@@ -4,7 +4,7 @@ function Contact() {
     return (
         <div className="bg-black md:w-4/5 mx-auto relative overflow-hidden rounded-3xl">
             <div className="w-full py-16 px-12">
-                <h2 className="text-3xl text-white font-bold">Feel free to us!</h2>
+                <h2 className="text-3xl text-white font-bold">Feel free to contact us!</h2>
                 <p className="text-lg text-white mt-2 mb-6">
                     Your Gateway to Unparalleled Farming Machinery Expertise and Support
                 </p>

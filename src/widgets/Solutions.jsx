@@ -13,7 +13,7 @@ function Solutions() {
 
                 <ul className='flex flex-col basis-2/5 space-y-5 rounded-l-3xl overflow-hidden '>
                     {solutionsData.map(item => (
-                        <li className={`flex flex-col justify-between h-48 p-5  border cursor-pointer  bg-white  hover:bg-indigo-300 hover:scale-105 duration-500`} key={item.id} onClick={() => setSelectedId(item.id)}>
+                        <li className={`flex flex-col justify-between h-52 p-2  border cursor-pointer  bg-white  hover:bg-indigo-300 hover:scale-105 duration-500`} key={item.id} onClick={() => setSelectedId(item.id)}>
                             <p className='lg:text-3xl font-bold text-black'>{item.title} </p>
 
                             <p className="lg:text-xl text-gray-700 leading-7">
@@ -27,7 +27,7 @@ function Solutions() {
                 {/* </div> */}
 
                 {/* right part */}
-                <div className=' h-[38.5em] basis-3/5 rounded-r-3xl overflow-hidden' >
+                <div className=' h-[41.5rem] basis-3/5 rounded-r-3xl overflow-hidden' >
                     <img className='w-full h-full object-cover hover:scale-105 duration-500 cursor-pointer' alt="" src={
                         solutionsData.find(item => item.id === selectId).img} />
                 </div>
