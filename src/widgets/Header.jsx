@@ -4,10 +4,10 @@ import Logo from '../assets/logo.svg'
 export default function Header() {
     return (
         <div className='flex items-center justify-between h-20 w-full'>
-            <img src={Logo} alt="" className='w-8 h-8' />
+            <img src={Logo} alt="" className='w-12 h-12 animate-logo-move' />
             <nav className='flex items-center '>
-                <a href="#">Login</a>
-                <a href="#" className='ml-8 bg-gray-900 px-4 py-2 rounded text-blue-50 flex items-center'>
+                <a href="#" className='text-lg text-yellow-800'>Login</a>
+                <a href="#" className='ml-8 bg-green-800 text-lg px-4 py-2 rounded text-white flex items-center'>
                     Register
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

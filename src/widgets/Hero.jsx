@@ -1,23 +1,23 @@
 import React from 'react'
-import Video from '../assets/production_ID_4167404.mp4'
+import Video from '../assets/AgriNZ.mp4'
 
 export default function
     () {
     return (
-        <div className='grid justify-items-center gap-8 pb-28 relative'>
+        <div className='grid justify-items-center gap-8  relative'>
             {/* title */}
-            <p className='text-4xl md:text-6xl font-black text-center leading-normal md:leading-normal '>
-                MACHINERY & WORKSHOP TOOLS
+            <p className='text-4xl md:text-6xl font-black text-green-800 text-center leading-normal md:leading-normal '>
+                Welcome to AgriBazaar !
             </p>
 
             {/* content */}
-            <p className='text-xl text-gray-600 md:w-1/2 '>Need something special for the workshop? Look here for heaters, bandsaws, belt machines, bench drills and pedestal drills, compressors, benders, broach cutters, drill machines, dust extractors, folders, rollers, punches, generators, grinders, jacks, lathes, planers and any other type of workshop machinery.
+            <p className='text-2xl text-yellow-800 md:w-1/2 '>Your ultimate destination for cutting-edge farming machinery solutions in the heart of Aotearoa. Our platform brings together farmers, ranchers, and agricultural enthusiasts from across New Zealand, offering a wide range of top-quality equipment to revolutionize your farming practices.
             </p>
 
             {/* button */}
             <div>
-                <button className='rounded bg-blue-500 text-base text-white px-8 py-3'>Booking Now</button>
-                <button className='rounded text-base bg-gray-900 text-white px-8 py-3 ml-8'>Learn More</button>
+                <button className='rounded bg-yellow-800 text-lg text-white px-8 py-3'>Rent Now</button>
+                <button className='rounded text-lg bg-green-800 text-white px-8 py-3 ml-8'>Buy Now</button>
             </div>
 
             {/* svg right */}
@@ -52,7 +52,7 @@ export default function
             <div className='relative grid justify-items-center'>
                 <video src={Video} controls className='w-[768px] h-[432px] object-cover object-top rounded'></video>
 
-                <div className="flex absolute rounded-full bg-white -bottom-7 px-5 py-4 drop-shadow-xl">
+                {/* <div className="flex absolute rounded-full bg-white -bottom-7 px-5 py-4 drop-shadow-xl">
                     <svg
                         width="24"
                         height="24"
@@ -65,7 +65,7 @@ export default function
                         <path d="M10 17L16 12L10 7V17Z" fill="#999999" />
                     </svg>
                     Watching 2mins Demo
-                </div>
+                </div> */}
             </div>
             {/* svg left */}
             <div className='relative w-full'>

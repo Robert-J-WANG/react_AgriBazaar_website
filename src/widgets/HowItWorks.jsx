@@ -1,47 +1,21 @@
 import React from 'react'
 import SectionHeading from './SectionHeading'
+import { specialistsData } from '../data'
 
 function HowItWorks() {
     return (
-        <div>
-            <SectionHeading title='How is works?' subTitle='How is works? Who is working for?' />
+        <div className='flex flex-col items-center'>
+            <SectionHeading title='Farm Machinery Specialists' subTitle='Elevating Your Farming Experience with Top-Notch Equipment' />
 
-            <div className='mt-14 grid grid-cols-2 md:grid-cols-3 ga6'>
+            <div className='mt-14 grid grid-cols-2 md:grid-cols-3 w-11/12 gap-5  '>
                 {
-                    [1, 2, 3, 4, 5, 6].map(v => (
-                        <div className='grid justify-items-center gap-y-2' key={v}>
-
-                            <svg
-                                width="56"
-                                height="56"
-                                viewBox="0 0 56 56"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <circle cx="28" cy="28" r="28" fill="#0070F4" />
-                                <path d="M30.2 31L32 33H39" stroke="#99C5FA" strokeWidth="2" />
-                                <path d="M18 23H23L24.8 25" stroke="#99C5FA" strokeWidth="2" />
-                                <path d="M18 33H23L32 23H39" stroke="white" strokeWidth="2" />
-                                <path
-                                    d="M36 30L39 33L36 36"
-                                    stroke="#99C5FA"
-                                    strokeWidth="2"
-                                    strokeLinecap="square"
-                                />
-                                <path
-                                    d="M36 26L39 23L36 20"
-                                    stroke="white"
-                                    strokeWidth="2"
-                                    strokeLinecap="square"
-                                />
-                            </svg>
-
-                            <p className="text-xl font-bold">HOW </p>
-
+                    specialistsData.map(item => (
+                        <div className='grid justify-items-center gap-5 py-5 rounded-2xl bg-white cursor-pointer hover:bg-indigo-300 hover:scale-105 duration-500' key={item.id}>
+                            <img src={item.icon} className='w-14 h-14 rounded-full' alt="" />
+                            <p className="text-xl font-bold">{item.title} </p>
                             <p className="text-gray-500">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, sapiente totam. Consectetur, iste.
+                                {item.description}
                             </p>
-
                         </div>
                     ))
                 }

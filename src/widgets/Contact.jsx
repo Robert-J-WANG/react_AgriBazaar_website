@@ -4,9 +4,9 @@ function Contact() {
     return (
         <div className="bg-black md:w-4/5 mx-auto relative overflow-hidden rounded-3xl">
             <div className="w-full py-16 px-12">
-                <h2 className="text-3xl text-white font-bold">Come to join us!</h2>
+                <h2 className="text-3xl text-white font-bold">Feel free to us!</h2>
                 <p className="text-lg text-white mt-2 mb-6">
-                    Reprehenderit perspiciatis minima inventore tempore at iure ipsa sed nesciunt minus aliquam quam modi placeat maiores
+                    Your Gateway to Unparalleled Farming Machinery Expertise and Support
                 </p>
                 <div className="flex flex-col md:flex-row items-start gap-4">
                     <input
@@ -20,7 +20,7 @@ function Contact() {
                         Send now
                     </button>
                 </div>
-                <p className="text-sm text-zinc-400 mt-3">7 Days free for the new registers</p>
+                <p className="text-xl text-red-600 mt-3">20% discount off for the new registers !!!</p>
             </div>
             {/* svg decoration */}
             <div className="absolute -right-10 bottom-0">

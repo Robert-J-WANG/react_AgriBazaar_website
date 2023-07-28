@@ -9,7 +9,7 @@ import Footer from '../widgets/Footer'
 
 export default function Index() {
     return (
-        <div className='container mx-auto p-4 bg-white relative'>
+        <div className='container mx-auto p-4 bg-green-100 relative'>
             <header className='w-[70%] border-b bg-white   fixed top-0 z-10' >
                 <Header />
             </header>

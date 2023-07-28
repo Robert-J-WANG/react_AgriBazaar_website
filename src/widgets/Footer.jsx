@@ -1,42 +1,32 @@
 import React from "react";
 import Logo from "../assets/logo.svg";
+import { footerData } from '../data'
 
 function Footer() {
     return (
         <footer className="grid gap-8 md:gap-0 text-gray-500 md:w-4/5 mx-auto mt-32 md:grid-cols-4">
             <div >
-                <img src={Logo} alt="" className="w-8 h-8" />
+                <img src={Logo} alt="" className="w-16 h-16" />
                 <p className="grid gap-2 justify-items-start mt-10">
                     <a href="#">
                         User Agreement</a>
                     <a href="#">Privacy</a>
                 </p>
             </div>
-            {[1, 2, 3].map((v) => (
-                <nav key={v} className="grid gap-2">
-                    <p className="text-lg text-black">Products</p>
-                    <a href="">Corporate Partners</a>
-                    <a href="">Secure Identity</a>
-                    <a href="">Legal Help</a>
-                    <a href="">First Capital</a>
+            {footerData.map((item) => (
+                <nav key={item.id} className="grid gap-2">
+                    <p className="text-lg text-black">{item.category}</p>
+                    {item.title.map((titleItem, index) => (
+                        <a key={index} href="">{titleItem}</a>
+                    ))}
                 </nav>
             ))}
-            {/* <nav className="grid gap-2 content-start">
-                <p className="text-base text-black">Register</p>
-                <p>register here</p>
-                <input
-                    type="text"
-                    name=""
-                    id=""
-                    className="py-2 px-3 border"
-                    placeholder="your email"
-                />
-            </nav> */}
+
             <div className="col-span-full mt-12 border-t py-9 flex flex-col gap-4 justify-between md:flex-row">
                 <p>
                     disigned by {" "}
                     <a href="https://cruip.com/" className="text-blue-500">
-                        Cruip
+                        Robert
                     </a>{" "}
                     . All rights reserved.
                 </p>
